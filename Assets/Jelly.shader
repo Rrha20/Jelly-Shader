@@ -91,7 +91,7 @@ Shader "Jelly"
             if (v.vertex.y == -0.5){
                
             } else {
-            v.vertex.x += (sin(_Time.w*3)*2-1)*abs(v.vertex.x*sin(_Time.w)/50); 
+            v.vertex.x += (sin(_Time.w*3)*2-1)*abs(v.vertex.x*sin(_Time.w)/25); 
             v.vertex.z += (sin(_Time.w*5)*2-1)*abs(v.vertex.z*cos(_Time.w)/50); 
             v.vertex.y += v.vertex.y*sin(_Time.w)/75; 
             }
